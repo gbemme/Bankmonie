@@ -1,10 +1,15 @@
 <template>
-$END$
+<div>
+  <HeroPage/>
+  Home
+</div>
 </template>
 
 <script>
+import HeroPage from "~/components/landingPage/HeroPage";
 export default {
-name: "home"
+  name: "home",
+  components: {HeroPage}
 }
 </script>
 
