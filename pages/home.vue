@@ -1,8 +1,7 @@
 <template>
-<div>
+<v-app>
   <HeroPage/>
-  Home
-</div>
+</v-app>
 </template>
 
 <script>
