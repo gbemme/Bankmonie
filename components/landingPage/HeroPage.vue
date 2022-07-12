@@ -4,7 +4,7 @@
   <div class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
     <div class="provide-pos">
       <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl">
-        <h2 class="providing">Providing <h2 class="afford">Affordable</h2></h2>
+        <span class="md:tw-flex">Providing <span class="afford"> Affordable</span></span>
         <h2>Financial Services.</h2>
       </div>
 
@@ -52,10 +52,7 @@ export default {
   font-family: Gelion;
   font-style: normal;
   font-weight: 700;
-  /*font-size: 56px;*/
-  /*line-height: 64px;*/
-  /*letter-spacing: -0.03em;*/
-  color: #012169 ;
+  color: #012169;
 }
 .provide-pos .afford{
   color: #009CDE;
@@ -74,7 +71,6 @@ export default {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding: 16px;*/
   background: #009CDE;
   border-radius: 12px;
   font-style: normal;
@@ -85,12 +81,8 @@ export default {
 }
 .hero-img-page .hero-img-dv{
   border-radius: 20px 20px 0 0;
-  /*width: 712px;*/
-  /*height: 715px;*/
 }
-.providing{
-  display: flex;
-}
+
 .v-btn{
   text-transform: capitalize!important;
 }
