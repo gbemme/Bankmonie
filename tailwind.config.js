@@ -8,7 +8,14 @@ module.exports = {
   ],
   prefix:'tw-',
   theme: {
-    extend: {},
+    boxShadow: {
+      sm: '0px 12px 50px rgba(150, 150, 150, 0.05)'
+    },
+    extend: {
+      width:{
+        '29':'29%'
+      }
+    },
   },
   plugins: [],
 }
