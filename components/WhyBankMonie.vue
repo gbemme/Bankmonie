@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="md:tw-w-3/4 md:tw-m-auto md:tw-mt-11 md:tw-mb-3">
+    <div class="md:tw-w-3/4 md:tw-m-auto md:tw-pt-11 md:tw-pb-3">
       <div class="md:tw-w-5/12">
       <span class="md:tw-text-4xl md:tw-mb-10 tw-mt-10 tw-text-3xl tw-font-bold">Why you should be an agent with Bank
         <span style="color: #009CDE">Monie</span></span>
       </div>
     </div>
 
-    <div class="pricing md:tw-w-3/4 md:tw-mx-10 tw-w-full">
+    <div class="pricing md:tw-w-3/4 md:tw-px-10 tw-w-full">
       <div class="md:tw-flex md:tw-w-auto md:tw-m-auto md:tw-items-center tw-justify-between tw-block">
         <div class="md:tw-hidden"><img src="/dark-blue-mobile.png" alt=""></div>
         <div class="md:tw-w-4/12">
