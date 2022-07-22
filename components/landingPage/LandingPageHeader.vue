@@ -44,11 +44,8 @@ export default {
 </script>
 
 <style scoped>
-*{
-  font-family: Gelion;
-}
+
 .button-text{
-  font-family: 'Gelion';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -69,7 +66,6 @@ export default {
   left: 172.55px;
   top: 32px;
   color: #002433;
-  font-family: 'Gelion';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -87,7 +83,6 @@ export default {
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #002433;
-  font-family: Gelion;
 }
 .nav .home{
   /*font-family: Gelion;*/

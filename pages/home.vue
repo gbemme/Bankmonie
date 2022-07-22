@@ -3,6 +3,7 @@
   <HeroPage/>
   <Upgrade/>
   <WhyBankMonie/>
+  <FrequentlyAskQuestion/>
 </v-app>
 </template>
 
@@ -10,9 +11,10 @@
 import HeroPage from "~/components/landingPage/HeroPage";
 import Upgrade from "../components/landingPage/Upgrade";
 import WhyBankMonie from "../components/WhyBankMonie";
+import FrequentlyAskQuestion from "../components/FrequentlyAskQuestion";
 export default {
   name: "home",
-  components: {WhyBankMonie, Upgrade, HeroPage}
+  components: {FrequentlyAskQuestion, WhyBankMonie, Upgrade, HeroPage}
 }
 </script>
 
