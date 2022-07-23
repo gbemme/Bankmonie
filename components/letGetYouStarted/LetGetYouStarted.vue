@@ -39,8 +39,36 @@
       label="Main input"
       :rules="rules"
       hide-details="auto"
-    ></v-text-field>
-    <v-text-field label="Another input"></v-text-field>
+    >
+        <v-container
+          class="px-0"
+          fluid
+        >
+          <v-radio-group v-model="radioGroup">
+            <v-radio
+              v-for="n in 1"
+              :key="n"
+              :label="`Radio ${n}`"
+              :value="n"
+            ></v-radio>
+          </v-radio-group>
+        </v-container>
+    </v-text-field>
+    <v-text-field label="Another input">
+        <v-container
+          class="px-0"
+          fluid
+        >
+          <v-radio-group v-model="radioGroup">
+            <v-radio
+              v-for="n in 1"
+              :key="n"
+              :label="`Radio ${n}`"
+              :value="n"
+            ></v-radio>
+          </v-radio-group>
+        </v-container>
+    </v-text-field>
     <div class="my-2">
       <v-btn
         x-large
