@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper">
-  <div class="md:tw-w-29 tw-m-auto md:tw-w-4/12 tw-w-10/12 md:tw-text-center md:tw-mt-24 tw-mt-16">
+  <div class="md:tw-w-29 tw-m-auto  tw-w-10/12 md:tw-text-center md:tw-pt-24 tw-pt-16">
   <span class="md:tw-text-4xl tw-text-3xl md:tw-font-bold">Upgrade your <span style="color: #009CDE;">business</span> & <span style="color: #01E068;">earn</span> more with us</span>
   </div>
   <div class="md:tw-w-3/6 md:tw-m-auto tw-hidden"><img src="/img-square.png" alt=""></div>

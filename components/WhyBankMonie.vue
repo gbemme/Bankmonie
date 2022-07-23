@@ -10,6 +10,7 @@
       <div class="md:tw-flex md:tw-w-auto md:tw-m-auto md:tw-items-center tw-justify-between tw-block tw-my-12">
         <div class="md:tw-hidden"><img class="tw-w-full tw-px-9" src="/dark-blue-mobile.png" alt=""></div>
         <div class="md:tw-w-4/12 tw-px-9">
+
                 <small class="md:tw-text-xs md:tw-font-normal md:tw-flex tw-hidden tw-mb-3">OUR AGENTS ARE PROFITABLE</small>
                 <div class="md:tw-w-11/12">
                 <span class="dark-col md:tw-mt-9 md:tw-text-4xl md:tw-px-1 tw-font-bold tw-text-3xl">Fair Pricings,Low <span style="color: #01E068">Commissions</span></span>
