@@ -3,8 +3,8 @@
   <LandingPageHeader/>
   <div class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
     <div class="provide-pos">
-      <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl">
-        <span class="md:tw-flex">Providing <span class="afford"> Affordable</span></span>
+      <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl animate__animated animate__heartBeat">
+        <span class="md:tw-flex">Providing<span class="afford">Affordable</span></span>
         <h2>Financial Services.</h2>
       </div>
 
@@ -20,7 +20,12 @@
       </div>
     </div>
     <div class="hero-img-dv">
-    <img class="tw-hidden md:tw-block" src="/man-hero.png" alt="">
+      <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw--mr-16 md:tw-mt-11">
+        <img class="md:tw-w-80 animate__animated animate__backInDown" src="/income-rate.svg" alt=""></div>
+      <div class="tw-hidden md:tw-flex md:tw--ml-16 md:tw-mt-28"><img class="md:tw-w-80 animate__animated animate__backInRight" src="/income-rate-two.svg" alt=""></div>
+       <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw-mt-3 md:tw--mr-16">
+        <img class="md:tw-w-80 animate__animated animate__backInUp" src="/income-rate-two.svg" alt=""></div>
+<!--    <img class=" md:tw-block" src="/man-hero.png" alt="">-->
       <img class="md:tw-hidden tw-w-112" src="/man-hero-mobile.png" alt="">
     </div>
   </div>
@@ -29,6 +34,7 @@
 
 <script>
 import LandingPageHeader from "~/components/landingPage/LandingPageHeader";
+import "animate.css"
 export default {
   name: "HeroPage",
   components:{LandingPageHeader}
@@ -40,16 +46,17 @@ export default {
   background-image: url("./static/MacBook Pro - 12home-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.hero-img-page{
-  /*display: flex;*/
-  /*justify-content: space-between;*/
-  /*width: 83%;*/
-  /*margin: auto;*/
+.animate__animated.animate__backInDown{
+  animation-duration: 3s;
+}
+.animate__animated.animate__backInUp{
+  animation-duration: 3s;
+}
+.animate__animated.animate__backInRight{
+  animation-duration: 3s;
 }
 .provide-pos{
-  font-family: Gelion;
   font-style: normal;
   font-weight: 700;
   color: #012169;
@@ -58,7 +65,6 @@ export default {
   color: #009CDE;
 }
 .provide-pos p{
-  font-family: Gelion;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -79,8 +85,13 @@ export default {
   letter-spacing: -0.02em;
   color: #FFFFFF;
 }
-.hero-img-page .hero-img-dv{
-  border-radius: 20px 20px 0 0;
+.hero-img-dv{
+  background-image: url("/hero-image-guy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 600px;
+
 }
 
 .v-btn{
