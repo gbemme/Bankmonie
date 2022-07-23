@@ -24,14 +24,14 @@
       <button class="btn-talk tw-w-40 tw-h-14 tw-rounded-2xl tw-text-base tw-font-semibold">Talk to Us</button>
     </div>
     <div class="md:tw-flex tw-justify-center">
-      <img class="tw-hidden md:tw-block" src="/become-agent.png" alt="">
-      <img class="md:tw-hidden" src="/round-mobile-with-button.png" alt="">
+      <img class="tw-hidden md:tw-block" src="/static/become-agent.png" alt="">
+      <img class="md:tw-hidden" src="/static/round-mobile-with-button.png" alt="">
     </div>
   </div>
   <div class="contact-section tw-px-10">
     <div class="md:tw-w-3/4 md:tw-flex md:tw-flex-row md:tw-m-auto md:tw-justify-between tw-flex-col tw-pt-16">
       <div class="md:tw-w-3/12 tw-mr-16">
-        <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/bank-logo.png" alt="">ankMonie</span>
+        <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/static/bank-logo.png" alt="">ankMonie</span>
         <small>We give instant settlements on our platform because we know that you would</small>
       </div>
       <div class="md:tw-flex md:tw-flex-row md:tw-justify-between md:tw:w-6/12 tw-flex">
@@ -49,7 +49,7 @@
       </div>
       </div>
       <div class="md:tw-block md:tw-w-3/12">
-        <img src="/social-icon.svg" alt="">
+        <img src="/static/social-icon.svg" alt="">
       </div>
     </div>
     <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
