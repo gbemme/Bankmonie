@@ -5,16 +5,16 @@
     app
     elevation="0"
   color="transparent"
-    class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center tw-pt-1"
+    class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center tw-pt-4"
   >
     <img class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
 
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
     <div  class="button-text tw-hidden md:tw-block">
-        <v-btn text>Home</v-btn>
-        <v-btn text>About Us</v-btn>
-        <v-btn text>Services</v-btn>
-        <v-btn text>FAQs</v-btn>
+        <v-btn   href="#home" text>Home</v-btn>
+        <v-btn  href="#about" text>About Us</v-btn>
+        <v-btn  href="#services" text>Services</v-btn>
+        <v-btn href="#faq" text>FAQs</v-btn>
     </div>
 
 
@@ -56,6 +56,11 @@ export default {
 }
 .v-btn{
   text-transform: capitalize!important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
 }
 
 

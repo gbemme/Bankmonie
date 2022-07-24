@@ -1,6 +1,6 @@
 <template>
-<div class="faq">
-  <div class="md:tw-w-3/4 md:tw-px-4 md:tw-m-auto md:tw-pb-20 tw-w-full tw-px-10 tw-pb-8">
+<div id="faq" class="faq">
+  <div class="md:tw-w-4/6 md:tw-px-4 md:tw-m-auto md:tw-pb-20 tw-w-full tw-px-10 tw-pb-8">
     <div class="faq-heading tw-mb-8 tw-text-4xl tw-font-bold md:tw-w-4/12">
       <h2>Frequently <span style="color: #009CDE">Asked</span>  Questions.</h2>
     </div>
