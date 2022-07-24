@@ -1,7 +1,7 @@
 <template>
 <div class="bg-img">
   <LandingPageHeader/>
-  <div class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
+  <div id="home" class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
     <div class="provide-pos">
       <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl animate__animated animate__heartBeat">
         <span class="md:tw-flex">Providing<span class="afford">Affordable</span></span>
@@ -19,15 +19,21 @@
       >Get POS Terminal</v-btn>
       </div>
     </div>
-    <div class="hero-img-dv">
-      <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw--mr-16 md:tw-mt-11">
-        <img class="md:tw-w-80 animate__animated animate__backInDown" src="/income-rate.svg" alt=""></div>
-      <div class="tw-hidden md:tw-flex md:tw--ml-16 md:tw-mt-28"><img class="md:tw-w-80 animate__animated animate__backInRight" src="/income-rate-two.svg" alt=""></div>
-       <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw-mt-3 md:tw--mr-16">
-        <img class="md:tw-w-80 animate__animated animate__backInUp" src="/income-rate-two.svg" alt=""></div>
-<!--    <img class=" md:tw-block" src="/man-hero.png" alt="">-->
+    <div>
+    <div class="hero-img-dv tw-hidden md:tw-block">
+      <div class="tw-flex md:tw-items-end md:tw-justify-end md:tw--mr-16 md:tw-mt-11 tw-transform hover:tw-scale-90">
+        <img draggable="false" class="md:tw-w-72 animate__animated animate__backInDown  " src="/income-rate.svg" alt="">
+      </div>
+      <div class="tw-flex md:tw--ml-16 md:tw-mt-28">
+        <img class="md:tw-w-72 animate__animated animate__backInRight" src="/income-rate-two.svg" alt="">
+      </div>
+       <div class="tw-flex md:tw-items-end md:tw-justify-end md:tw-mt-3 md:tw--mr-16">
+        <img class="md:tw-w-72 animate__animated animate__backInUp" src="/income-rate-two.svg" alt="">
+       </div>
+    </div>
       <img class="md:tw-hidden tw-w-112" src="/man-hero-mobile.png" alt="">
     </div>
+
   </div>
 </div>
 </template>
@@ -60,6 +66,7 @@ export default {
   font-style: normal;
   font-weight: 700;
   color: #012169;
+  font-family: Gelion,serif;
 }
 .provide-pos .afford{
   color: #009CDE;

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Gelion';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/GelionRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gelion';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Gelion Bold.ttf') format('truetype');
+}
+
+html {
+  font-family: 'Gelion' !important;
+}
+
+.v-application {
+  font-family: 'Gelion' !important;
+}
+#app{
+  font-family: 'Gelion' !important;
+
+}
+/**{*/
+/*  font-family: "Gelion" !important;*/
+
+/*}*/
