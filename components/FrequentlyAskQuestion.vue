@@ -1,13 +1,13 @@
 <template>
 <div class="faq">
-  <div class="md:tw-w-3/4 md:tw-m-auto md:tw-pb-20 tw-w-full tw-px-10 tw-pb-8">
+  <div class="md:tw-w-3/4 md:tw-px-4 md:tw-m-auto md:tw-pb-20 tw-w-full tw-px-10 tw-pb-8">
     <div class="faq-heading tw-mb-8 tw-text-4xl tw-font-bold md:tw-w-4/12">
       <h2>Frequently <span style="color: #009CDE">Asked</span>  Questions.</h2>
     </div>
     <div class="form">
         <v-row justify="center">
           <v-expansion-panels>
-            <v-expansion-panel class="tw-mb-4 tw-rounded-2xl"
+            <v-expansion-panel class="tw-mb-4"
               v-for="(data,i) in questions"
               :key="i">
 
@@ -24,13 +24,13 @@
       <button class="btn-talk tw-w-40 tw-h-14 tw-rounded-2xl tw-text-base tw-font-semibold">Talk to Us</button>
     </div>
     <div class="md:tw-flex tw-justify-center">
-      <img class="tw-hidden md:tw-block" src="/become-agent.png" alt="">
+      <img class="tw-hidden md:tw-block md:tw-w-full" src="/become-agent.png" alt="">
       <img class="md:tw-hidden" src="/round-mobile-with-button.png" alt="">
     </div>
   </div>
   <div class="contact-section tw-px-10">
     <div class="md:tw-w-3/4 md:tw-flex md:tw-flex-row md:tw-m-auto md:tw-justify-between tw-flex-col tw-pt-16">
-      <div class="md:tw-w-3/12 tw-mr-16">
+      <div class=" md:tw-w-15.9 tw-mr-16">
         <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/bank-logo.png" alt="">ankMonie</span>
         <small>We give instant settlements on our platform because we know that you would</small>
       </div>
@@ -48,12 +48,12 @@
         <p>Services</p>
       </div>
       </div>
-      <div class="md:tw-block md:tw-w-3/12">
+      <div class="md:tw-block">
         <img src="/social-icon.svg" alt="">
       </div>
     </div>
     <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
-      <span style="color: #002433">Bank<span style="color: #009CDE">Monie</span> <span>|2021 All Rights Reserved</span></span>
+      <span style="color: #002433">Bank<span style="color: #009CDE">Monie</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
     </div>
     <div>
 
@@ -91,7 +91,15 @@ export default {
           answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
         }
 
-      ]
+      ],
+      d: new Date()
+    }
+  },
+  methods:{
+    printDate(){
+      let d = 1
+      console.log(this.d,this.questions)
+      return d
     }
   }
 }

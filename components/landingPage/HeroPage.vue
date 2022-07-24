@@ -19,15 +19,18 @@
       >Get POS Terminal</v-btn>
       </div>
     </div>
-    <div class="hero-img-dv">
+    <div>
+    <div class="hero-img-dv tw-hidden md:tw-block">
       <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw--mr-16 md:tw-mt-11">
         <img class="md:tw-w-80 animate__animated animate__backInDown" src="/income-rate.svg" alt=""></div>
       <div class="tw-hidden md:tw-flex md:tw--ml-16 md:tw-mt-28"><img class="md:tw-w-80 animate__animated animate__backInRight" src="/income-rate-two.svg" alt=""></div>
        <div class="tw-hidden md:tw-flex md:tw-items-end md:tw-justify-end md:tw-mt-3 md:tw--mr-16">
-        <img class="md:tw-w-80 animate__animated animate__backInUp" src="/income-rate-two.svg" alt=""></div>
-<!--    <img class=" md:tw-block" src="/man-hero.png" alt="">-->
+        <img class="md:tw-w-80 animate__animated animate__backInUp" src="/income-rate-two.svg" alt="">
+       </div>
+    </div>
       <img class="md:tw-hidden tw-w-112" src="/man-hero-mobile.png" alt="">
     </div>
+
   </div>
 </div>
 </template>
