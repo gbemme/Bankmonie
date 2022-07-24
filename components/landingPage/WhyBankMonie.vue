@@ -9,7 +9,7 @@
 
     <div
       class="pricing md:tw-mb-0 md:tw-w-4/6 md:tw-flex md:tw-justify-between md:tw-m-auto md:tw-items-center tw-mb-32 md:tw-pt-48">
-      <div class="md:tw-hidden tw-mb-10 tw-px-8"><img alt="" src="/static/dark-blue-mobile.png"></div>
+      <div class="md:tw-hidden tw-mb-10 tw-px-8"><img alt="" src="~/static/dark-blue-mobile.png"></div>
       <div class=" md:tw-px-0 tw-px-9 md:tw-mt-0 tw-mt-9">
         <small class="md:tw-text-xs md:tw-font-normal md:tw-flex tw-hidden tw-mb-3">OUR AGENTS ARE PROFITABLE</small>
         <div class="md:tw-w-21">
@@ -21,16 +21,16 @@
           other agents and still be profitable.</p>
       </div>
       <div class="md:tw-block tw-hidden">
-        <img alt="" class="md:tw-h-96" src="/static/pos-atm-new.png">
+        <img alt="" class="md:tw-h-96" src="~/static/pos-atm-new.png">
       </div>
     </div>
 
     <div class="md:tw-my-36 tw-mt-80 tw-mb-80 md:tw-mb-0">
       <div
         class="network md:tw-w-4/6 md:tw-m-auto md:tw-flex md:tw-justify-between md:tw-items-center tw-mb-32 md:tw-pt-48">
-        <div class="md:tw-hidden tw-px-8"><img alt="" src="/static/lite-blue-mobile.png"></div>
+        <div class="md:tw-hidden tw-px-8"><img alt="" src="~/static/lite-blue-mobile.png"></div>
         <div class="md:tw-block tw-hidden">
-          <img alt="" class="md:tw-h-96" src="/static/image-and-square.png">
+          <img alt="" class="md:tw-h-96" src="~/static/image-and-square.png">
         </div>
         <div class="md:tw-px-0 tw-px-8 md:tw-w-20.6 md:tw-mt-0 tw-mt-9">
           <small class="md:tw-text-xs md:tw-font-normal md:tw-flex tw-hidden tw-mb-3">OUR AGENTS ARE PROFITABLE</small>
@@ -48,7 +48,7 @@
     <div class="md:tw-my-36 tw-mt-52 tw-mb-80 md:tw-mb-0">
       <div
         class="settlement md:tw-w-4/6 md:tw-flex md:tw-justify-between md:tw-m-auto md:tw-items-center tw-mb-32 md:tw-pt-48">
-        <div class="md:tw-hidden tw-px-8"><img alt="" src="/static/dark-green-mobile.png"></div>
+        <div class="md:tw-hidden tw-px-8"><img alt="" src="~/static/dark-green-mobile.png"></div>
         <div class="md:tw-px-0 tw-px-9 md:tw-mt-0 tw-mt-9">
           <small class="md:tw-text-xs md:tw-font-normal md:tw-flex tw-hidden tw-mb-3">OUR AGENTS ARE PROFITABLE</small>
           <div class="md:tw-w-21 md:tw-px-0">
@@ -60,7 +60,7 @@
             moment you make it.</p>
         </div>
         <div class="md:tw-block tw-hidden">
-          <img alt="" class="md:tw-h-96" src="/static/pos-atm-new.png">
+          <img alt="" class="md:tw-h-96" src="~/static/pos-atm-new.png">
         </div>
       </div>
     </div>
@@ -68,9 +68,9 @@
     <div class="md:tw-my-36 tw-mt-52 tw-mb-80 md:tw-mb-0">
       <div class="support md:tw-w-4/6 md:tw-m-auto">
         <div class="md:tw-flex md:tw-w-auto md:tw-m-auto md:tw-items-center md:tw-justify-between">
-          <div class="md:tw-hidden tw-px-8"><img alt="" class="" src="/static/lite-green%20mobile.png"></div>
+          <div class="md:tw-hidden tw-px-8"><img alt="" class="" src="~/static/lite-green-mobile.png"></div>
           <div class="md:tw-block tw-hidden">
-            <img alt="" class="md:tw-h-96" src="/static/male-image.png">
+            <img alt="" class="md:tw-h-96" src="~/static/male-image.png">
           </div>
           <div class="md:tw-w-6/12 md:tw-px-0 tw-px-8 md:tw-mt-0 tw-mt-9">
             <p class="tw-font-normal tw-hidden md:tw-block tw-text-base-sm">WE ARE AVAILABLE 24 HOURS 7 DAYS A WEEK</p>
@@ -90,7 +90,7 @@
     <div class="md:tw-my-36 tw-mt-52 tw-mb-80 md:tw-mb-12">
       <div class="channels md:tw-w-4/6 md:tw-m-auto">
         <div class="md:tw-flex md:tw-w-auto md:tw-m-auto md:tw-items-center md:tw-justify-between">
-          <div class="md:tw-hidden tw-px-8"><img alt="" class="" src="/static/dark-blue-mobile.png"></div>
+          <div class="md:tw-hidden tw-px-8"><img alt="" class="" src="~/static/dark-blue-mobile.png"></div>
           <div class="md:tw-w-6/12 md:tw-px-0 tw-px-8 md:tw-mt-0 tw-mt-9">
             <small class="md:tw-text-xs md:tw-font-normal md:tw-flex tw-hidden tw-mb-3">SUPER FLEXIBLE TO FIT YOUR
               NEEDS</small>
@@ -105,7 +105,7 @@
 
           </div>
           <div class="md:tw-block tw-hidden">
-            <img alt="" class="md:tw-h-96" src="/static/pos-atm-new.png">
+            <img alt="" class="md:tw-h-96" src="~/static/pos-atm-new.png">
           </div>
         </div>
       </div>
