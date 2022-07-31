@@ -17,14 +17,24 @@
 <!--    </v-col>-->
 <!--  </v-row>-->
   <v-app>
-    <LetGetYouStarted/>
+<!--    <LetGetYouStarted/>-->
+<!--    <SubmitForm/>-->
+<!--    <WelcomeBackAdmin/>-->
+<!--    <WelcomeBackJosh/> -->
+        <LetHelpYourBusinessGetStarted/>
+<!--    <Header/>-->
   </v-app>
 </template>
 
 <script>
-import LetGetYouStarted from "../components/letGetYouStarted/LetGetYouStarted";
+import LetGetYouStarted from "../components/loginPage/LetGetYouStarted";
+import SubmitForm from "../components/loginPage/SubmitForm";
+import Header from "../components/reusable/Header";
+import WelcomeBackAdmin from "../components/loginPage/WelcomeBackAdmin";
+import WelcomeBackJosh from "../components/loginPage/WelcomeBackJosh";
+import LetHelpYourBusinessGetStarted from "../components/loginPage/LetHelpYourBusinessGetStarted";
 export default {
   name: 'InspirePage',
-  components: {LetGetYouStarted}
+  components: {LetHelpYourBusinessGetStarted, WelcomeBackJosh, WelcomeBackAdmin, Header, SubmitForm, LetGetYouStarted}
 }
 </script>
