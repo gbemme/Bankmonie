@@ -25,7 +25,6 @@ html {
   font-family: 'Gelion' !important;
 
 }
-/**{*/
-/*  font-family: "Gelion" !important;*/
-
-/*}*/
+.v-btn__content {
+  font-size: 14px;
+}
