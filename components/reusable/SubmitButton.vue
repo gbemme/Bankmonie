@@ -1,6 +1,6 @@
 <template>
   <div class="next tw-mt-12">
-    <button>Submit Application</button>
+    <button @click="">Submit Application</button>
   </div>
 </template>
 

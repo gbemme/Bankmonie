@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper tw-px-8 md:tw-px-0">
-  <div clas="header">
+  <div class="header">
     <v-app-bar
       absolute
       app
@@ -40,7 +40,6 @@
     </div>
       <div class="md:tw-flex md:tw-justify-between">
   <div class="input-side tw-mt-28">
-<!--    <h3 class="tw-text-lg tw-font-normal tw-leading-5">What best describes your business?</h3>-->
     <form action="">
       <div class="tw-flex tw-justify-between tw-w-23.5">
         <div class="tw-flex tw-flex-col">
@@ -82,7 +81,7 @@
   </div>
 
       <div class="female md:tw-block tw-hidden">
-        <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-head-bg.png" alt=""></div>
+        <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-ambassador-bg.png" alt=""></div>
         <div class="tw-relative tw-mr-20"><img src="~/static/female-ambassador.png" alt=""></div>
       </div>
       </div>

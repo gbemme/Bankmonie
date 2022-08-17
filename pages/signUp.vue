@@ -19,9 +19,11 @@
   <v-app>
 <!--    <LetGetYouStarted/>-->
 <!--    <SubmitForm/>-->
-<!--    <WelcomeBackAdmin/>-->
-<!--    <WelcomeBackJosh/> -->
-        <LetHelpYourBusinessGetStarted/>
+<!--        <LetHelpYourBusinessGetStart/>-->
+        <SignUpLayout/>
+<!--        <LetHelpYouGetStartedForm/>-->
+<!--        <JustAMomentAlmostDoneForm/>-->
+<!--        <LetHelpYourBusinessGetStarted/>-->
 <!--    <Header/>-->
   </v-app>
 </template>
@@ -30,11 +32,22 @@
 import LetGetYouStarted from "../components/loginPage/LetGetYouStarted";
 import SubmitForm from "../components/loginPage/SubmitForm";
 import Header from "../components/reusable/Header";
-import WelcomeBackAdmin from "../components/loginPage/WelcomeBackAdmin";
-import WelcomeBackJosh from "../components/loginPage/WelcomeBackJosh";
 import LetHelpYourBusinessGetStarted from "../components/loginPage/LetHelpYourBusinessGetStarted";
+import LetHelpYourBusinessGetStartedForm from "../components/reusable/LetHelpYourBusinessGetStartedForm";
+import JustAMomentAlmostDone from "../components/reusable/JustAMomentAlmostDoneForm";
+import JustAMomentAlmostDoneForm from "../components/reusable/JustAMomentAlmostDoneForm";
+import Layout from "../components/loginPage/SignUpLayout";
+import SignUpLayout from "../components/loginPage/SignUpLayout";
+import LetHelpYouGetStartedForm from "../components/reusable/LetHelpYouGetStartedForm";
 export default {
   name: 'InspirePage',
-  components: {LetHelpYourBusinessGetStarted, WelcomeBackJosh, WelcomeBackAdmin, Header, SubmitForm, LetGetYouStarted}
+  components: {
+    LetHelpYouGetStartedForm,
+    SignUpLayout,
+    Layout,
+    JustAMomentAlmostDoneForm,
+    JustAMomentAlmostDone,
+    LetHelpYourBusinessGetStartedForm,
+    LetHelpYourBusinessGetStarted, Header, SubmitForm, LetGetYouStarted}
 }
 </script>

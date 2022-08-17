@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper tw-px-8 md:tw-px-0">
-    <div clas="header">
+    <div class="header">
       <div class="head tw-flex md:tw-w-10/12 tw-m-auto tw-justify-between">
         <div class="tw-mt-6"><img class="tw-w-36 md:tw-w-44" src="/logo.svg" alt=""></div>
         <div class="login-btn md:tw-block md:tw-w-44.75 tw-hidden tw-mt-6"><button>Log In</button></div>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="female md:tw-block tw-hidden">
-          <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-head-bg.png" alt=""></div>
+          <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-ambassador-bg.png" alt=""></div>
           <div class="tw-relative tw-mr-20"><img src="~/static/female-ambassador.png" alt=""></div>
         </div>
       </div>

@@ -37,24 +37,14 @@
     </div>
     <div class="md:tw-flex md:tw-justify-between">
       <div class="input-side">
-        <form for="demo" action="" id="submit">
+        <form action="">
           <div class="tw-w-94 tw-flex tw-flex-col tw-my-6">
             <label>State</label> <input type="text" placeholder="Select state">
           </div>
           <div class="tw-w-94 tw-flex tw-flex-col">
             <label>Local government Area of state</label> <input type="text" placeholder="Select LGA">
           </div>
-<!--            <v-row justify="center">-->
-<!--              <v-expansion-panels>-->
-<!--                <v-expansion-panel class="tw-my-4 tw-w-94"-->
-<!--                                   v-for="(data,i) in questions"-->
-<!--                                   :key="i">-->
-<!--                  <v-expansion-panel-label>{{data.label}}</v-expansion-panel-label>-->
-<!--                  <v-expansion-panel-header>{{data.question}}</v-expansion-panel-header>-->
-<!--                  <v-expansion-panel-content> {{data.answer}}</v-expansion-panel-content>-->
-<!--                </v-expansion-panel>-->
-<!--              </v-expansion-panels>-->
-<!--            </v-row>-->
+
           <h2 class="tw-mt-5">Gender</h2>
           <div class="tw-flex tw-flex-col tw-justify-between tw-w-23.5">
             <label class="tw-my-3">Are you an existing Money Agent?</label>
@@ -68,7 +58,7 @@
       </div>
 
       <div class="female md:tw-block tw-hidden">
-        <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-head-bg.png" alt=""></div>
+        <div class="female-bg tw-absolute tw--mr-44 animate__animated animate__fadeInTopRight"><img src="~/static/female-ambassador-bg.png" alt=""></div>
         <div class="tw-relative tw-mr-20"><img src="~/static/female-ambassador.png" alt=""></div>
       </div>
     </div>
@@ -112,6 +102,10 @@ export default {
   height: 57px;
   letter-spacing: -0.03em;
 }
+.female-bg{
+  right: 350px;
+  top: 145px;
+}
 input{
   background: #F2F2F2;
   border-radius: 8px;
@@ -145,10 +139,7 @@ small{
   height: 36px;
   padding: 11px 9px 11px 9px;
 }
-.female-bg{
-  right: 350px;
-  top: 145px;
-}
+
 
 
 </style>
