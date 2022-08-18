@@ -12,11 +12,11 @@
 import HeroPage from "~/components/landingPage/HeroPage";
 import Upgrade from "../components/landingPage/Upgrade";
 import WhyBankMonie from "../components/landingPage/WhyBankMonie";
-import FrequentlyAskQuestion from "../components/FrequentlyAskQuestion";
-import OurServices from "@/components/landingPage/OurServices";
+import FrequentlyAskQuestion from "~/components/landingPage/FrequentlyAskQuestion";
+import OurServices from "~/components/landingPage/OurServices";
 export default {
   name: "home",
-  components: {OurServices, FrequentlyAskQuestion, WhyBankMonie, Upgrade, HeroPage}
+  components: { OurServices, FrequentlyAskQuestion, WhyBankMonie, Upgrade, HeroPage}
 }
 </script>
 
