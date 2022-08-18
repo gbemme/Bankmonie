@@ -1,9 +1,9 @@
 <template>
 <div id="LetHelpYourBusinessGetStartedForm">
-  <div class="let md:tw-w-64 md:tw-mt-20 tw-mt-24">
+  <div class="let md:tw-w-64 md:tw-mt-20 tw-mt-24 md:tw-px-0 tw-px-8">
     <span class="let-help md:tw-text-2xl tw-font-bold">Let's help your Business <span style="color: #009CDE">get started</span></span>
   </div>
-  <div class="input-side md:tw-mt-12 tw-mt-14">
+  <div class="input-side md:tw-mt-12 tw-mt-14 md:tw-px-0 tw-px-8">
     <validation-observer v-slot="{handleSubmit}">
     <form @submit.prevent="handleSubmit(next)">
       <div class="md:tw-flex tw-justify-between md:tw-w-23.5">
@@ -56,17 +56,21 @@
           <span v-show="errors" class="err">{{errors[0]}}</span>
         </validation-provider>
       </div>
-      <h2 class="tw-mt-5 tw-text-lg tw-font-normal md:tw-block tw-hidden">Gender</h2>
-      <div class="md:tw-flex md:tw-flex-col tw-hidden tw-justify-between tw-w-23.5">
+      <h2 class="tw-mt-5 tw-text-lg tw-font-normal ">Gender</h2>
+<!--      md:tw-block tw-hidden-->
+      <div class="md:tw-flex md:tw-flex-col  tw-justify-between tw-w-23.5">
+<!--        tw-hidden-->
         <label class="describe tw-my-3">How best do we describe you?</label>
-        <div class="tw-flex tw-justify-between">
-          <div class="gender tw-flex tw-items-center" @click="selectGenderType('male')" :class="user.gender==='male'?'active':'non-active'">
+<!--        THIS IS THE GENDER PART-->
+        <div class="tw-flex tw-justify-between md:tw-w-23.5 tw-w-full md:tw-pr-0 tw-pr-8">
+          <div class="gender md:tw-w-40 tw-w-40 tw-flex tw-items-center" @click="selectGenderType('male')" :class="user.gender==='male'?'active':'non-active'">
             <small :class="user.gender==='male'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p>
           </div>
-          <div class="gender tw-flex tw-items-center" @click="selectGenderType('female')" :class="user.gender==='female'?'active':'non-active'">
+          <div class="gender md:tw-w-40 tw-w-40 tw-flex tw-items-center" @click="selectGenderType('female')" :class="user.gender==='female'?'active':'non-active'">
             <small :class="user.gender==='female'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Female</p>
           </div>
         </div>
+<!--        GENDER SECTION END HERE.-->
       </div>
 
       <div class="tw-flex tw-mt-8 md:tw-justify-start tw-justify-end">
@@ -134,7 +138,6 @@ export default {
 .gender{
   border: 0.3px solid #808080;
   border-radius: 10px;
-  width: 170px;
   height: 36px;
   padding: 11px 9px 11px 9px;
 }

@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="tw-w-64 tw-mb-10">
+  <div class="md:tw-px-0 tw-px-8">
+    <div class="tw-w-64 md:tw-mb-10 tw-mt-11">
       <span class="tw-text-3xl tw-font-semibold">Let's help you <span style="color: #009CDE">get started</span></span>
     </div>
-    <p class="tw-w-118 tw-font-normal tw-text-lg tw-leading-5">What best describe your business</p>
+    <p class="md:tw-w-118 tw-w-full tw-font-normal tw-text-lg tw-leading-5">What best describe your business</p>
     <div @click="selectBusinessType('Registered Business')" :class="user.businessType==='Registered Business'?'active':'non-active'" class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 tw-mb-2">
       <div :class="user.businessType==='Registered Business'?'bg-active':'bg-non-active'" class="tw-w-3 tw-h-3 tw-mr-3"> </div>
       <small>Registered Business</small>

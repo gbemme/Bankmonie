@@ -1,9 +1,9 @@
 <template>
 <div>
-          <div class="heading md:tw-w-65.25 tw-mt-28">
+          <div class="heading md-tw-px-0 tw-px-8 md:tw-w-65.25 tw-mt-28">
             <span class="tw-text-2xl tw-leading-7 tw-font-bold">Just a Moment <span style="color: #009CDE">Almost Done</span></span>
           </div>
-  <div class="input-side">
+  <div class="input-side md-tw-px-0 tw-px-8">
     <validation-observer v-slot="{handleSubmit}">
     <form @submit.prevent="handleSubmit(submitForm)">
       <div class="tw-w-94 tw-flex tw-flex-col tw-my-6">

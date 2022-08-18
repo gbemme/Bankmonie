@@ -38,7 +38,9 @@
         </div>
       </div>
     </div>
-    <Footer/>
+    <div class="md:tw-px-0 tw-px-8">
+       <Footer/>
+    </div>
 
   </div>
 </template>
