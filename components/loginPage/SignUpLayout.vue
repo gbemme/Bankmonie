@@ -8,18 +8,18 @@
         color="transparent"
         class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center"
       >
-        <img class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
+        <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
 
         <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
-        <div class="login tw-hidden md:tw-block tw-text-sm tw-mt-6">
-          <v-btn
-            class="ma-2 md:tw-w-44 md:tw-h-14 tw-text-sm tw-font-semibold tw-rounded-xl"
-            outlined
-            color="#009CDE"
-          >
-            Log In
-          </v-btn>
-        </div>
+<!--        <div class="login tw-hidden md:tw-block tw-text-sm tw-mt-6">-->
+<!--          <v-btn-->
+<!--            class="ma-2 md:tw-w-44 md:tw-h-14 tw-text-sm tw-font-semibold tw-rounded-xl"-->
+<!--            outlined-->
+<!--            color="#009CDE"-->
+<!--          >-->
+<!--            Log In-->
+<!--          </v-btn>-->
+<!--        </div>-->
 
       </v-app-bar>
     </div>

@@ -7,6 +7,7 @@
       :disabled="isDisable"
       type="submit"
       @click="$emit('click')"
+      large
     >
      {{text}}
     </v-btn>

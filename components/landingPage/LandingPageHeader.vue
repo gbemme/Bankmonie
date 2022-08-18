@@ -7,7 +7,7 @@
   color="transparent"
     class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center tw-pt-4"
   >
-    <img class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
+    <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
 
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
     <div  class="button-text tw-hidden md:tw-block">
@@ -24,8 +24,9 @@
         class="ma-2 "
         outlined
         color="#009CDE"
+        to="/signUp"
       >
-        Log In
+        Register
       </v-btn>
     </div>
 
