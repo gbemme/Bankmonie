@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="tw-mt-8">
-      <BaseButton :is-disable="user.agent===''" @click="submitForm()" :text="'Submit Application'"/>
+      <BaseButton :is-disable="user.agent===''"  :text="'Submit Application'"/>
       </div>
 <!--      <SubmitButton />-->
     </form>
@@ -79,9 +79,16 @@ export default {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(updateUser) // body data type must match "Content-Type" header
-    });
-    console.log(response.json())
-    return response.json(); // parses JSON response into native JavaScript objects
+    }).then(res=>{
+      console.log(res)
+      this.$router.push('/')
+    })
+    .catch(err=>{
+      console.log(err)
+    })
+    // if(response)
+    // return response.json(); // pa
+    // this.$rou// rses JSON response into native JavaScript objects
 
   },
 

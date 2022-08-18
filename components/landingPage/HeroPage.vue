@@ -15,7 +15,8 @@
         depressed
         elevation="2"
         large
-        class=""
+        to="/signUp"
+        class="white--text font-weight-bold"
       >Get POS Terminal</v-btn>
       </div>
     </div>

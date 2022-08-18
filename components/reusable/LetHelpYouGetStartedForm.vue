@@ -1,6 +1,6 @@
 <template>
   <div class="md:tw-px-0 tw-px-8">
-    <div class="tw-w-64 md:tw-mb-10 tw-mt-11">
+    <div class="tw-w-64 md:tw-mb-10 tw-mb-4 tw-mt-24">
       <span class="tw-text-3xl tw-font-semibold">Let's help you <span style="color: #009CDE">get started</span></span>
     </div>
     <p class="md:tw-w-118 tw-w-full tw-font-normal tw-text-lg tw-leading-5">What best describe your business</p>

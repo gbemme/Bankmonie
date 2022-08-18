@@ -15,7 +15,7 @@
               name="firstname"
               rules="required">
               <div class="tw-flex tw-flex-col">
-              <input class="md:tw-w-44" type="text" placeholder="Enter Firstname" v-model="user.firstName">
+              <input class="md:tw-w-44" type="text" placeholder="Enter Firstname" v-model="user.firstname">
               <span v-show="errors" class="err">{{errors[0]}}</span>
               </div>
             </validation-provider>
@@ -29,7 +29,7 @@
           name="lastname"
           rules="required">
             <div class="tw-flex tw-flex-col">
-            <input class="md:tw-w-44" type="text" placeholder="Enter Lastname" v-model="user.lastName">
+            <input class="md:tw-w-44" type="text" placeholder="Enter Lastname" v-model="user.lastname">
             <span v-show="errors" class="err">{{errors[0]}}</span>
             </div>
           </validation-provider>
@@ -52,7 +52,7 @@
         name="numeric"
         rules="required|numeric"
         >
-        <input class="tw-w-full" id="Mobile" type="tel" placeholder="Enter Mobile Number" v-model="user.mobile">
+        <input class="tw-w-full" id="Mobile" type="tel" placeholder="Enter Mobile Number" v-model="user.phone">
           <span v-show="errors" class="err">{{errors[0]}}</span>
         </validation-provider>
       </div>
@@ -62,7 +62,7 @@
 <!--        tw-hidden-->
         <label class="describe tw-my-3">How best do we describe you?</label>
 <!--        THIS IS THE GENDER PART-->
-        <div class="tw-flex tw-justify-between md:tw-w-23.5 tw-w-full md:tw-pr-0 tw-pr-8">
+        <div class="tw-flex tw-mt-2 tw-justify-between md:tw-w-23.5 tw-w-full md:tw-pr-0 tw-pr-8">
           <div class="gender md:tw-w-40 tw-w-40 tw-flex tw-items-center" @click="selectGenderType('male')" :class="user.gender==='male'?'active':'non-active'">
             <small :class="user.gender==='male'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p>
           </div>
@@ -78,7 +78,7 @@
       </div>
       <div class="md:tw-hidden tw-flex tw-justify-between tw-items-center tw-mt-36">
         <h3 class="have-account tw-text-base tw-font-normal">Have Account?</h3>
-        <h3 class="create-account tw-text-base tw-font-bold">Create Account</h3>
+        <h3 @click="$router.push('/signUp')" class="create-account tw-text-base tw-font-bold">Create Account</h3>
       </div>
     </form>
     </validation-observer>
@@ -97,10 +97,10 @@ export default {
   data(){
     return {
       user:{
-        firstName:"",
-        lastName:"",
+        firstname:"",
+        lastname:"",
         email:"",
-        mobile:"",
+        phone:"",
         gender:""
       }
     }
