@@ -1,10 +1,14 @@
 <template>
 <v-app>
-  <HeroPage/>
-  <Upgrade/>
+  <HeroPage @navigate="goToPage"/>
+  <!-- <Transition name="fade" mode="out-in"> -->
+    <Upgrade/>
+  <!-- </Transition>  -->
   <OurServices/>
-  <WhyBankMonie/>
-  <FrequentlyAskQuestion/>
+  <!-- <Transition name="fade" mode="out-in"> -->
+    <WhyBankMonie class="md:tw-mb-16"/>
+   <!-- </Transition> -->
+  <FrequentlyAskQuestion @navigate="goToPage"/>
 </v-app>
 </template>
 
@@ -16,7 +20,14 @@ import FrequentlyAskQuestion from "~/components/landingPage/FrequentlyAskQuestio
 import OurServices from "~/components/landingPage/OurServices";
 export default {
   name: "home",
-  components: { OurServices, FrequentlyAskQuestion, WhyBankMonie, Upgrade, HeroPage}
+  components: { OurServices, FrequentlyAskQuestion, WhyBankMonie, Upgrade, HeroPage},
+  methods:{
+    goToPage(id){
+      setTimeout(()=>{
+        this.$scrollToTop(id);
+      }, 300)
+    },
+  }
 }
 </script>
 

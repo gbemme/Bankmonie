@@ -7,14 +7,14 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - bankmonie-app',
-    title: 'bankmonie-app',
+    title: ' BankMe POS (Point of Sale ) Terminal - Fast Payments in Nigeri',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: ' Accept and process payments with ease. BankMe’s POS terminals provide fast and secure payment processing, with low fees and fast onboarding within 5 minutes.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -26,12 +26,17 @@ export default {
   css: [
     '@/assets/css/main.css',
     "@/assets/css/global.css",
-
+    // '~/assets/transition.css'
   ],
+//   pageTransition: {
+//     name: "fade",
+//     mode: "out-in"
+// },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    "~/plugins/vee-validate"
+    "~/plugins/vee-validate",
+    "~/plugins/scrollToTop.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

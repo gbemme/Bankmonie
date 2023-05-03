@@ -1,6 +1,6 @@
 <template>
 <div class="bg-img">
-  <LandingPageHeader/>
+  <LandingPageHeader @navigate="goToPage"/>
   <div id="home" class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
     <div class="provide-pos">
       <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl animate__animated animate__heartBeat">
@@ -8,7 +8,9 @@
         <h2>Financial Services.</h2>
       </div>
 
-      <p class="md:tw-text-left md:tw-w-96 md:tw-mt-6 tw-text-center tw-text-base">At bankmonie we provide financial services in your local community and make money while at it.</p>
+      <p class="md:tw-text-left md:tw-w-96 md:tw-mt-6 tw-text-center tw-text-3xl">
+        BankMe makes it easy for you to accept and process payments with our POS terminals. No more high fees or slow payment processing. Accept payments from customers faster than ever before.
+      </p>
       <div class="tw-flex tw-justify-center md:tw-block md:tw-my-14 tw-my-9">
       <v-btn
         color="#009CDE"
@@ -44,13 +46,19 @@ import LandingPageHeader from "~/components/landingPage/LandingPageHeader";
 import "animate.css"
 export default {
   name: "HeroPage",
-  components:{LandingPageHeader}
+  components:{LandingPageHeader},
+  methods:{
+    goToPage(id){
+      this.$emit('navigate',id)
+    }
+  }
 }
 </script>
 
 <style scoped>
 .bg-img{
-  background-image: url("./static/MacBook Pro - 12home-bg.png");
+  background: linear-gradient(181.04deg, #EBF9FF 0.89%, #FFFFFF 108.71%);
+  /* background-image: url("./static/MacBook Pro - 12home-bg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -75,8 +83,8 @@ export default {
 .provide-pos p{
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
   letter-spacing: -0.02em;
   color: #808080;
 }

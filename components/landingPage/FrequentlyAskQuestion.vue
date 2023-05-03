@@ -21,7 +21,9 @@
     </div>
     <div class="md:tw-flex tw-justify-between tw-mt-4 tw-mb-20">
       <h4 class="question tw-w-12/12 tw-text-2xl tw-font-normal tw-mb-4">Still Have Questions we Have not Answered?</h4>
+      <a href="mailto:hello@bankme.africa">
       <button class="btn-talk tw-w-40 tw-h-14 tw-rounded-2xl tw-text-base tw-font-semibold">Talk to Us</button>
+    </a>
     </div>
     <div class="md:tw-flex tw-justify-center">
       <img class="tw-hidden md:tw-block md:tw-w-full" src="/become-agent.png" alt="">
@@ -37,20 +39,34 @@
       <div class="md:tw-flex md:tw-flex-row md:tw-justify-between md:tw:w-6/12 tw-flex">
       <div class="tw-mr-16">
         <h3 class="navigate tw-text-xl tw-mb-4">Navigate</h3>
-        <p>About Us</p>
-        <p>FAQs</p>
-        <p>About Us</p>
+        <p class="tw-cursor-pointer" @click="$emit('navigate', '#about')">About Us</p>
+        <p class="tw-cursor-pointer" @click="$emit('navigate','#faq')">FAQs</p>
+        <!-- <p>About Us</p> -->
       </div>
       <div class="tw-ml-16">
         <h3 class="service-follow-us tw-text-xl tw-font-semibold tw-mb-4">Services</h3>
         <p>Agency Banking</p>
-        <p>Services</p>
-        <p>Services</p>
+        <p class="tw-cursor-pointer" @click="$emit('navigate','#services')">Services</p>
+        <!-- <p>Services</p> -->
       </div>
       </div>
-      <div class="md:tw-block">
-        <img src="/social-icon.svg" alt="">
-      </div>
+      <div>
+        <h3 class="service-follow-us tw-text-xl tw-font-semibold tw-mb-4">Follow Us</h3>
+        <div class="tw-flex tw-justify-between tw-w-34 tw-h-5">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="~/static/instagram-icon.svg" alt="" ref="https://www.instagram.com/">
+          </a>
+          <a href="https://www.whatsapp.com/" target="_blank">
+            <img src="~/static/whatsapp-logo-fill.svg" alt="" ref="https://www.whatsapp.com/">
+          </a>
+        </div>
+    </div>
     </div>
     <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
       <span style="color: #002433">Bank<span style="color: #009CDE">Monie</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
@@ -71,25 +87,37 @@ export default {
     return{
       questions:[
         {
-          question:"What is you Name",
-          answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
+          question:"What is the best POS in Nigeria?",
+          answer:"There are various good POS providers in Nigeria but the BankMe POS machine stands out amongst the rest for its instant settlements, competitive pricing, seamless onboarding and the ability to work with your existing bank."
+        },
+        {         
+          question:"How reliable is your POS Network ?",
+          answer:"Our POS terminal is built with world class technology and a reliable payment infrastructure that completes POS transactions in seconds - we are here to serve you."
         },
         {
-          question:"What is you Name",
-          answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
+          question:"Would I need to open a new bank account to get a POS ?",
+          answer:"No, Our POS works with your existing Nigerian bank account whether that’s a personal bank account or business account."
         },
         {
-          question:"What is you Name",
-          answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
+          question:"Can I get more than one BankMe POS terminal for my business?",
+          answer:"Yes, large businesses can order multiple terminals to meet their needs."
         },
         {
-          question:"What is you Name",
-          answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
+          question:"How can customers reach you to rectify transaction issues ?",
+          answer:"You can reach our customer support team via various channels including email, whatsapp call or our physical address."
         },
         {
-          question:"What is you Name",
-          answer:"At a bankMonie we provide a financial services in your local community and make money while on it"
-        }
+          question:"Who is BankMe ?",
+          answer: "BankMe is a product of Mango Technologies Limited. We offer financial services to help businesses and individuals actualize their financial goals and beyond by providing top-notch customer-centric solutions."
+        },
+        {
+          question:"Do you have an office address ?",
+          answer:"We're located at 279 Herbert Macaulay Way, Yaba, Lagos, Nigeria. You can reach out to us physically for support or through our other support channels (email, whatsapp, call, etc.). Also, we deliver nationwide, but don't worry if you're not in Lagos - we can still deliver our POS Device to anywhere in the country and support you while you use it."
+        },
+        // {
+        //   question:"A better, affordable way to collect payments",
+        //   answer:"BankMe delivers exceptional payment experiences that drives business growth and keep your customers coming back"
+        // }
 
       ],
       d: new Date()

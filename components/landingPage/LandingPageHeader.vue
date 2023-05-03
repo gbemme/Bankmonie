@@ -4,24 +4,25 @@
     absolute
     app
     elevation="0"
-  color="transparent"
+    color="transparent"
     class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center tw-pt-4"
   >
     <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
 
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
-    <div  class="button-text tw-hidden md:tw-block">
-        <v-btn   href="#home" text>Home</v-btn>
-        <v-btn  href="#about" text>About Us</v-btn>
-        <v-btn  href="#services" text>Services</v-btn>
-        <v-btn href="#faq" text>FAQs</v-btn>
+    <div style="font-size:48!important;"  class="button-text tw-hidden md:tw-block">
+        <v-btn class="tw-text-xl" @click="$emit('navigate','#home')"  text>Home</v-btn>
+        <v-btn class="text-large" @click="$emit('navigate','#about')" text>About Us</v-btn>
+        <v-btn class="tw-cursor-pointer" @click="$emit('navigate','#services')"  text>Services</v-btn>
+        <v-btn class="tw-cursor-pointer" @click="$emit('navigate','#faq')" text>FAQs</v-btn>
     </div>
 
 
-    <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
-    <div class="tw-hidden md:tw-block md:tw-text-sm">
+    <v-spacer class="tw-hidden md:tw-block"></v-spacer>
+    <div class="tw-hidden tw-font-semibold md:tw-block md:tw-text-lg">
       <v-btn
-        class="ma-2 "
+        x-large
+        class="register-btn ma-2"
         outlined
         color="#009CDE"
         to="/signUp"
@@ -29,6 +30,12 @@
         Register
       </v-btn>
     </div>
+    <v-btn
+      class="login-btn ma-2 ml-10"
+      outlined
+    >
+    <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank"> Login</a>
+    </v-btn>
 
 
   </v-app-bar>
@@ -40,16 +47,30 @@
 <script>
 export default {
   name: "LandingPageHeader",
+  methods:{
+    goToHome(){
+      // setTimeout(()=>{
+        this.$scrollToTop('#faq');
+      // }, 300)
+    },
+  //   faq(){
+  //     this.$scrollToTop('
+  //   }
+  }
 
 }
 </script>
 
 <style scoped>
-
-.button-text{
+/* .register-btn{
+  font-size:24px !important;
+  width: 75px !important;
+  padding: 5px 10px 5px 10px !important;
+} */
+.button-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 36px;
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #002433;
@@ -98,8 +119,10 @@ export default {
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #009CDE;
-
-
+}
+.login-btn{
+  background-color: #009CDE;
+  /*margin-left: 74px;*/
 }
 .login{
   display: flex;
