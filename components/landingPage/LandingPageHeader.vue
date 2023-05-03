@@ -10,7 +10,7 @@
     <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
 
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
-    <div style="font-size:48!important;"  class="button-text tw-hidden md:tw-block">
+    <div class="button-text tw-hidden md:tw-block">
         <v-btn class="tw-text-xl" @click="$emit('navigate','#home')"  text>Home</v-btn>
         <v-btn class="text-large" @click="$emit('navigate','#about')" text>About Us</v-btn>
         <v-btn class="tw-cursor-pointer" @click="$emit('navigate','#services')"  text>Services</v-btn>
@@ -19,9 +19,9 @@
 
 
     <v-spacer class="tw-hidden md:tw-block"></v-spacer>
-    <div class="tw-hidden tw-font-semibold md:tw-block md:tw-text-lg">
+    <div class="tw-hidden tw-font-bold md:tw-block md:tw-text-lg">
       <v-btn
-        x-large
+        style="font-weight: 500 !important;"
         class="register-btn ma-2"
         outlined
         color="#009CDE"
@@ -30,12 +30,15 @@
         Register
       </v-btn>
     </div>
+    <div class="tw-hidden tw-font-bold md:tw-block md:tw-text-lg">
     <v-btn
+      style="font-weight:500 !important; border:none !important"
       class="login-btn ma-2 ml-10"
       outlined
     >
-    <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank"> Login</a>
+    <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank">Login</a>
     </v-btn>
+  </div>
 
 
   </v-app-bar>
@@ -70,7 +73,7 @@ export default {
 .button-text {
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 24px !important;
   line-height: 19px;
   letter-spacing: -0.02em;
   color: #002433;
@@ -122,7 +125,8 @@ export default {
 }
 .login-btn{
   background-color: #009CDE;
-  /*margin-left: 74px;*/
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
 .login{
   display: flex;

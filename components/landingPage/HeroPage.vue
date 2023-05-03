@@ -3,13 +3,16 @@
   <LandingPageHeader @navigate="goToPage"/>
   <div id="home" class=" md:tw-flex tw-justify-between tw-items-center tw-m-auto md:tw-w-10/12 tw-pt-28 tw-px-4">
     <div class="provide-pos">
-      <div class="md:tw-text-left tw-text-center md:tw-text-6xl tw-text-4xl animate__animated animate__heartBeat">
-        <span class="md:tw-flex">Providing<span class="afford">Affordable</span></span>
-        <h2>Financial Services.</h2>
+      <div class="md:tw-text-left tw-text-center md:tw-text-4 tw-text-4xl animate__animated animate__heartBeat">
+        <span class="">Seamless and Delightful</span>
+        <span class="afford">In-Person Payments </span>
+        <h2>for Your Business</h2>
       </div>
 
       <p class="md:tw-text-left md:tw-w-96 md:tw-mt-6 tw-text-center tw-text-3xl">
-        BankMe makes it easy for you to accept and process payments with our POS terminals. No more high fees or slow payment processing. Accept payments from customers faster than ever before.
+        BankMe makes it easy for you to accept and process payments with 
+        our POS terminals. No more high fees or slow payment processing. 
+        Accept payments from customers faster than ever before.
       </p>
       <div class="tw-flex tw-justify-center md:tw-block md:tw-my-14 tw-my-9">
       <v-btn

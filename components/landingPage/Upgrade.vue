@@ -1,7 +1,7 @@
 <template>
 <div id="about" class="wrapper">
   <div class="md:tw-w-104 tw-pb-3 tw-m-auto tw-px-4 md:tw-px-0 md:tw-text-center md:tw-pt-24 tw-pt-16">
-  <span class="md:tw-text-4 tw-text-3xl md:tw-font-bold">Upgrade your <span style="color: #009CDE;">business</span> & <span style="color: #01E068;">earn</span> more with us</span>
+  <span class="md:tw-text-4 tw-text-3xl md:tw-font-bold">The Ultimate <span style="color: #009CDE;">Point</span> & <span style="color: #01E068;">of</span> Sale Terminal</span>
   </div>
   <div class="md:tw-w-3/6 md:tw-m-auto tw-hidden"><img src="/img-square.png" alt=""></div>
   <div class="tw-mt-9 md:tw-flex md:tw-justify-center md:tw-mt-7">

@@ -6,7 +6,7 @@
   <!-- </Transition>  -->
   <OurServices/>
   <!-- <Transition name="fade" mode="out-in"> -->
-    <WhyBankMonie class="md:tw-mb-16"/>
+    <WhyBankMonie class=""/>
    <!-- </Transition> -->
   <FrequentlyAskQuestion @navigate="goToPage"/>
 </v-app>

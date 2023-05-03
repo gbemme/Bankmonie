@@ -1,11 +1,11 @@
 <template>
 <div id="services" class="md:tw-w-4/6 tw-w-5/6 tw-pt-20 tw-m-auto">
   <div >
-    <h3 class="tw-text-4xl tw-font-bold tw-px-9 md:tw-px-0 md:tw-text-5xl md:tw-font-bold">Explore our<span style="color:#009CDE;"> services</span></h3>
+    <h3 class="tw-text-4xl tw-font-bold tw-px-9 md:tw-px-0 md:tw-text-5xl md:tw-font-bold">Power Your Business with a Comprehensive <span style="color:#009CDE;"> POS Device</span></h3>
   </div>
   <div class="md:tw-flex md:tw-m-auto tw-justify-between tw-px-9 md:tw-px-0">
     <div  class="md:tw-w-17 tw-mt-5">
-      <div v-for="(data,i) in leftList" :key="i">
+      <div class="left" v-for="(data,i) in leftList" :key="i">
         <img class="tw-w-9 tw-h-9 tw-mb-6 tw-mt-8 hover:tw-rotate-45 tw-transform "  :src="data.image" alt="">
         <h2 class="tw-text-2xl tw-mb-3 tw-font-bold" v-html="data.title"></h2>
         <div >
@@ -19,7 +19,7 @@
       <img src="/lady-image.png" alt="">
     </div>
     <div  class="md:tw-w-17 md:tw-pr-5 tw-mt-5">
-      <div v-for="(data,i) in rightList" :key="i">
+      <div class="right" v-for="(data,i) in rightList" :key="i">
         <img class="tw-w-9 tw-h-9 tw-mb-6 tw-mt-8 hover:tw-rotate-45 tw-transform"  :src="data.image" alt="">
         <h2 class="tw-text-2xl tw-mb-3 tw-font-bold" v-html="data.title"></h2>
         <div >
@@ -96,12 +96,13 @@ h4{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   letter-spacing: -0.02em;
-
   color: #808080;
-
-
 }
-
+.left{
+  min-height: 300px;
+}
+.right{
+  min-height: 300px;
+}
 </style>

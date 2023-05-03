@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="md:tw-w-4/6 md:tw-m-auto tw-pt-36 md:tw-px-0 tw-px-8 md:tw-pb-3 tw-mb-11">
-      <div class="md:tw-w-96 md:tw-mb-14">
-      <span class="md:tw-text-4xl tw-text-3xl tw-font-bold">Why Your Business Should Use<span style="color: #009CDE">BankMe for POS Transactions</span></span>
+      <div class="md:tw-w-120 md:tw-mb-14">
+      <span class="md:tw-text-4xl tw-text-3xl tw-font-bold">Why Your Business Should Use <span style="color: #009CDE">BankMe for POS Transactions</span></span>
       </div>
     </div>
 
@@ -109,7 +109,7 @@
               <h2 class=" dark-col md:tw-text-4xl tw-text-3xl tw-font-bold">High Transaction <h2 style="color: #01E068">
                 Success Rate</h2></h2>
             </div>
-            <p class="md:tw-w-18.5 md:tw-mt-4 md:tw-text-lg tw-text-base tw-font-normal">
+            <p class="md:tw-w-18.5 md:tw-mb-8 md:tw-text-lg tw-text-base tw-font-normal">
               Our POS device boasts an exceptional transaction success rate, 
               ensuring that every payment you accept goes through seamlessly. 
               We understand that reliability and speed are crucial when it 

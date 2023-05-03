@@ -1,5 +1,5 @@
 <template>
-<div id="faq" class="faq">
+<div id="faq" class="faq md:tw-mt-8">
   <div class="md:tw-w-4/6 md:tw-px-4 md:tw-m-auto md:tw-pb-20 tw-w-full tw-px-10 tw-pb-8">
     <div class="faq-heading tw-mb-8 tw-text-4xl tw-font-bold md:tw-w-4/12">
       <h2>Frequently <span style="color: #009CDE">Asked</span>  Questions.</h2>
@@ -33,8 +33,8 @@
   <div class="contact-section tw-px-10">
     <div class="md:tw-w-3/4 md:tw-flex md:tw-flex-row md:tw-m-auto md:tw-justify-between tw-flex-col tw-pt-16">
       <div class=" md:tw-w-15.9 tw-mr-16">
-        <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/bank-logo.png" alt="">ankMonie</span>
-        <small>We give instant settlements on our platform because we know that you would</small>
+        <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/bank-logo.png" alt="">ankMe</span>
+        <small>BankMe delivers exceptional payment experiences that drives business growth and keep your customers coming back</small>
       </div>
       <div class="md:tw-flex md:tw-flex-row md:tw-justify-between md:tw:w-6/12 tw-flex">
       <div class="tw-mr-16">
@@ -69,7 +69,7 @@
     </div>
     </div>
     <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
-      <span style="color: #002433">Bank<span style="color: #009CDE">Monie</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
+      <span style="color: #002433">Bank<span style="color: #009CDE">Me</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
     </div>
     <div>
 
