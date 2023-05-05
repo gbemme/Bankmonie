@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="md:tw-w-4/6 md:tw-m-auto tw-pt-36 md:tw-px-0 tw-px-8 md:tw-pb-3 tw-mb-11">
-      <div class="md:tw-w-120 md:tw-mb-14">
+      <div class="md:tw-w-120 md:tw-mb-2">
       <span class="md:tw-text-4xl tw-text-3xl tw-font-bold">Why Your Business Should Use <span style="color: #009CDE">BankMe for POS Transactions</span></span>
       </div>
     </div>

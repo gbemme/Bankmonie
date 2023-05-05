@@ -8,7 +8,7 @@
         color="transparent"
         class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center"
       >
-        <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
+      <img @click="$router.push('/')" class="tw-cursor-pointer tw-mt-4 tw-w-36 md:tw-w-44" src="/Bankme-logo.svg" alt="">
 
         <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
 <!--        <div class="login tw-hidden md:tw-block tw-text-sm tw-mt-6">-->

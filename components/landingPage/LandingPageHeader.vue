@@ -5,10 +5,12 @@
     app
     elevation="0"
     color="transparent"
-    class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center tw-pt-4"
+    class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-pt-4"
   >
-    <img @click="$router.push('/')" class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
-
+  <!-- <span @click="$router.push('/')" class="tw-cursor-pointer tw-w-36 md:tw-w-44 tw-flex tw-items-center tw-text-3xl tw-font-semibold">
+      <img class="tw-mb-3" src="/bank-logo.png" alt="">
+        ankMe</span> -->
+    <img @click="$router.push('/')" class="tw-cursor-pointer tw-w-36 md:tw-w-44 md:tw--mt-6" src="/Bankme-logo.svg" alt="">
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
     <div class="button-text tw-hidden md:tw-block">
         <v-btn class="tw-text-xl" @click="$emit('navigate','#home')"  text>Home</v-btn>

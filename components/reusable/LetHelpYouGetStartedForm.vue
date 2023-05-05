@@ -3,14 +3,14 @@
     <div class="tw-w-64 md:tw-mb-10 tw-mb-4 tw-mt-24">
       <span class="tw-text-3xl tw-font-semibold">Let's help you <span style="color: #009CDE">get started</span></span>
     </div>
-    <p class="md:tw-w-118 tw-w-full tw-font-normal tw-text-lg tw-leading-5">What best describe your business</p>
+    <p class="md:tw-w-118 tw-w-full tw-font-normal tw-text-2xl tw-leading-5">What best describe your business</p>
     <div @click="selectBusinessType('Registered Business')" :class="user.businessType==='Registered Business'?'active':'non-active'" class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 tw-mb-2">
-      <div :class="user.businessType==='Registered Business'?'bg-active':'bg-non-active'" class="tw-w-3 tw-h-3 tw-mr-3"> </div>
-      <small>Registered Business</small>
+      <div :class="user.businessType==='Registered Business'?'bg-active':'bg-non-active'" class="tw-cursor-pointer tw-w-3 tw-h-3 tw-mr-3"> </div>
+      <small class="tw-text-lg">Registered Business</small>
     </div>
     <div @click="selectBusinessType('Individual Business')" :class="user.businessType==='Individual Business'?'active':'non-active'" class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3">
-      <div :class="user.businessType==='Individual Business'?'bg-active':'bg-non-active'" class="tw-w-3 tw-h-3 tw-mr-3"> </div>
-      <small>Individual Business</small>
+      <div :class="user.businessType==='Individual Business'?'bg-active':'bg-non-active'" class="tw-cursor-pointer tw-w-3 tw-h-3 tw-mr-3"> </div>
+      <small class="tw-text-lg">Individual Business</small>
     </div>
     <div class="next tw-mt-12">
       <BaseButton :is-disable="user.businessType===''" @click="next"/>

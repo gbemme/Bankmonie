@@ -9,16 +9,6 @@
       class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-items-center"
     >
       <img class="tw-w-36 md:tw-w-44" src="/logo.svg" alt="">
-
-<!--      <v-spacer class=" tw-hidden md:tw-block"></v-spacer>-->
-<!--      <div  class="button-text tw-hidden md:tw-block">-->
-<!--        <v-btn   href="#home" text>Home</v-btn>-->
-<!--        <v-btn  href="#about" text>About Us</v-btn>-->
-<!--        <v-btn  href="#services" text>Services</v-btn>-->
-<!--        <v-btn href="#faq" text>FAQs</v-btn>-->
-<!--      </div>-->
-
-
       <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
       <div class="login tw-hidden md:tw-block tw-text-sm tw-mt-6">
         <v-btn
@@ -61,8 +51,8 @@
       <div class="tw-flex tw-flex-col tw-justify-between tw-w-23.5">
         <label class="describe tw-my-3">How best do we describe you?</label>
         <div class="tw-flex tw-justify-between">
-          <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p></div>
-          <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Female</p></div>
+          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p></div>
+          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Female</p></div>
         </div>
       </div>
 <!--      <div class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 tw-mb-2">-->

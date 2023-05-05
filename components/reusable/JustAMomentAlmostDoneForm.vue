@@ -130,6 +130,7 @@ small{
   height: 12px;
   border: 0.3px solid grey;
   border-radius: 10px;
+  cursor: pointer;
 }
 .agent{
   border: 0.3px solid #808080;

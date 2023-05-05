@@ -6,13 +6,13 @@
     </div>
     <div class="form">
         <v-row justify="center">
-          <v-expansion-panels>
+          <v-expansion-panels flat>
             <v-expansion-panel class="tw-mb-4"
               v-for="(data,i) in questions"
               :key="i">
 
-              <v-expansion-panel-header>{{data.question}}</v-expansion-panel-header>
-              <v-expansion-panel-content>
+              <v-expansion-panel-header class="tw-font-bold">{{ data.question }}</v-expansion-panel-header>
+              <v-expansion-panel-content class="tw-font-extralight tw-text-gray-400">
                 {{data.answer}}
               </v-expansion-panel-content>
             </v-expansion-panel>
@@ -33,8 +33,12 @@
   <div class="contact-section tw-px-10">
     <div class="md:tw-w-3/4 md:tw-flex md:tw-flex-row md:tw-m-auto md:tw-justify-between tw-flex-col tw-pt-16">
       <div class=" md:tw-w-15.9 tw-mr-16">
-        <span class="tw-flex tw-mb-5 tw-items-center tw-font-semibold"><img class="tw-mb-" src="/bank-logo.png" alt="">ankMe</span>
-        <small>BankMe delivers exceptional payment experiences that drives business growth and keep your customers coming back</small>
+        <img @click="$router.push('/')" class="tw-cursor-pointer tw-w-36 md:tw--mt-6 md-tw--mb-6" src="/Bankme-logo.svg" alt="">
+        <!-- <span @click="$router.push('/')" class="tw-flex tw-items-center tw-text-3xl tw-font-semibold"><img class="tw-mb-3" src="/bank-logo.png" alt="">ankMe</span> -->
+        <p class="tw-text-base tw-font-normal tw-p-1 md:tw-mt-3 ">A better, affordable way to collect payments.</p>
+        <p class="tw-text-base tw-font-normal tw-p-1 md:tw--mt-6">
+           BankMe delivers exceptional payment experiences that drives business growth and keep your customers coming back
+        </p>
       </div>
       <div class="md:tw-flex md:tw-flex-row md:tw-justify-between md:tw:w-6/12 tw-flex">
       <div class="tw-mr-16">
@@ -63,7 +67,7 @@
             <img src="~/static/instagram-icon.svg" alt="" ref="https://www.instagram.com/">
           </a>
           <a href="https://www.whatsapp.com/" target="_blank">
-            <img src="~/static/whatsapp-logo-fill.svg" alt="" ref="https://www.whatsapp.com/">
+            <img src="~/static/whatsapp-logo-fill.svg" alt="" ref="https://www.whatsapp.com/09134001002">
           </a>
         </div>
     </div>
@@ -87,38 +91,33 @@ export default {
     return{
       questions:[
         {
-          question:"What is the best POS in Nigeria?",
+          question:'What is the best POS in Nigeria?',
           answer:"There are various good POS providers in Nigeria but the BankMe POS machine stands out amongst the rest for its instant settlements, competitive pricing, seamless onboarding and the ability to work with your existing bank."
         },
         {         
-          question:"How reliable is your POS Network ?",
+          question:'How reliable is your POS Network ?',
           answer:"Our POS terminal is built with world class technology and a reliable payment infrastructure that completes POS transactions in seconds - we are here to serve you."
         },
         {
-          question:"Would I need to open a new bank account to get a POS ?",
+          question:'Would I need to open a new bank account to get a POS ?',
           answer:"No, Our POS works with your existing Nigerian bank account whether that’s a personal bank account or business account."
         },
         {
-          question:"Can I get more than one BankMe POS terminal for my business?",
+          question:'Can I get more than one BankMe POS terminal for my business?',
           answer:"Yes, large businesses can order multiple terminals to meet their needs."
         },
         {
-          question:"How can customers reach you to rectify transaction issues ?",
+          question:'How can customers reach you to rectify transaction issues ?',
           answer:"You can reach our customer support team via various channels including email, whatsapp call or our physical address."
         },
         {
-          question:"Who is BankMe ?",
+          question:'Who is BankMe ?',
           answer: "BankMe is a product of Mango Technologies Limited. We offer financial services to help businesses and individuals actualize their financial goals and beyond by providing top-notch customer-centric solutions."
         },
         {
-          question:"Do you have an office address ?",
+          question:'Do you have an office address ?',
           answer:"We're located at 279 Herbert Macaulay Way, Yaba, Lagos, Nigeria. You can reach out to us physically for support or through our other support channels (email, whatsapp, call, etc.). Also, we deliver nationwide, but don't worry if you're not in Lagos - we can still deliver our POS Device to anywhere in the country and support you while you use it."
         },
-        // {
-        //   question:"A better, affordable way to collect payments",
-        //   answer:"BankMe delivers exceptional payment experiences that drives business growth and keep your customers coming back"
-        // }
-
       ],
       d: new Date()
     }

@@ -44,21 +44,21 @@ export default {
         {
           image:'/dollar-image.svg',
           title:'Business-First POS',
-          description:'<span class="tw-font-normal">We have<span class="tw-font-bold">  designed a POS </span>device that prioritizes the needs of businesses. ' +
+          description:'<span class="tw-font-normal">We have <span class="">designed a POS </span>device that prioritizes the needs of businesses. ' +
             'BankMe offers competitive rates, fast settlement times, and tailored' +
             'features to help streamline their payment processes and grow their revenue.</span>'
         },
         {
           image:'/green-bg.svg',
           title:'Secure Payments',
-          description:'<span>Our POS<span class="tw-font-bold"> device</span> prioritizes the safety of your business and customers.' +
+          description:'<span>Our POS <span class="">device</span> prioritizes the safety of your business and customers.' +
             'With end-to-end encryption, you can trust that sensitive data is always ' +
             ' protected during the payment process and that every fraudulent transaction is flagged.</span>'
         },
         {
           image:'/blue-bg.svg',
           title:'Instant Dispute Resolution',
-          description:'<span>The <span class="tw-font-bold">BankMe POS</span> is equipped with instant dispute resolution on failed transactions.' +
+          description:'<span>The <span class="">BankMe POS</span> is equipped with instant dispute resolution on failed transactions.' +
             'No more waiting for days or even weeks to resolve payment issues, ' +
             ' so you and your customers can continue with your transactions seamlessly.</span>'
         },
@@ -67,20 +67,20 @@ export default {
         {
           image:'/lemon-bg.svg',
           title:'<span>A DIY Transactions </span><span style="color: #01E068">Dashboard</span>',
-          description:'<span>Our dashboard<span class="tw-font-bold"> provides</span> a clear and concise overview of your transactions,' +
+          description:'<span>Our dashboard <span class="">provides</span> a clear and concise overview of your transactions,' +
             'allowing you to quickly identify discrepancies, easily reconcile all your transactions and gain ' +
             'a better understanding of your business finances.</span>'
         },
         {
           image:'/blue-bg.svg',
           title:'Transfer to any bank account',
-          description:'<span>With our <span class="tw-font-bold">POS device</span>, transferring funds to any bank account in Nigeria has never been easier.' +
+          description:'<span>With our <span class="">POS device</span>, transferring funds to any bank account in Nigeria has never been easier.' +
             'Our user-friendly interface allows merchants and agents to transfer payments quickly and securely.</span>'
         },
         {
           image:'/dark-blue-bg.png',
           title:'Compatible With All Card Types',
-          description:'<span> BankMe <span class="tw-font-bold">POS</span> is compatible with all card types, including Visa, Verve, and Mastercard. ' +
+          description:'<span> BankMe <span class="">POS</span> is compatible with all card types, including Visa, Verve, and Mastercard. ' +
             'Your customers can easily pay for their purchases using the card they prefer, without any limitations</span>'
         },
       ]
