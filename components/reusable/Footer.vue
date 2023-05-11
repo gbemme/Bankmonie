@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
-    <span style="color: #002433">BankMe by<span style="color: #009CDE">Mango Technologies Limited</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
+    <span style="color: #002433">BankMe by <span style="color: #009CDE">Mango Technologies Limited</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
   </div>
 </div>
 </template>
