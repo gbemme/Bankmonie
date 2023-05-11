@@ -29,7 +29,7 @@
           <a href="https://www.facebook.com/" target="_blank">
             <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
           </a>
-          <a href="https://www.twitter.com/" target="_blank">
+          <a href="https://www.twitter.com/BankMeHQ" target="_blank">
             <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
           </a>
           <a href="https://www.instagram.com/" target="_blank">
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
-    <span style="color: #002433">Bank<span style="color: #009CDE">Me</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
+    <span style="color: #002433">BankMe by<span style="color: #009CDE">Mango Technologies Limited</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
   </div>
 </div>
 </template>
