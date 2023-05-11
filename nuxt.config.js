@@ -7,7 +7,8 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - bankmonie-app',
-    title: ' BankMe POS (Point of Sale ) Terminal - Fast Payments in Nigeri',
+    title: 'BankMe',
+    description: ' BankMe POS (Point of Sale ) Terminal - Fast Payments in Nigeria',
     htmlAttrs: {
       lang: 'en'
     },
@@ -15,6 +16,13 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: ' Accept and process payments with ease. BankMe’s POS terminals provide fast and secure payment processing, with low fees and fast onboarding within 5 minutes.' },
+      { hid: 'title', name: 'title', content: 'BankMe' },
+      { hid: 'image', name: 'image', content: '#replacethiswithimageurl' },
+      { hid: 'url', name: 'url', content: 'https://bankme.africa' },
+      { hid: 'telephone', name: 'telephone', content: '+234913 400 1002' },
+      { hid: 'address', name: 'address', content: '279 Herbert Macaulay Way,Yaba' },
+      { hid: 'openingHoursSpecification', name: 'openingHoursSpecification', content: 'Monday - Friday,  "opens": "09:00",\n' +
+          '    "closes": "21:00"' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
