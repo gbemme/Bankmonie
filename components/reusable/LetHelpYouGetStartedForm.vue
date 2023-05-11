@@ -4,7 +4,7 @@
       <span class="tw-text-3xl tw-font-semibold">Let's help you <span style="color: #009CDE">get started</span></span>
     </div>
     <p class="md:tw-w-118 tw-w-full tw-font-normal tw-text-2xl tw-leading-5">What best describe your business</p>
-    <div @click="selectBusinessType('Registered Business')" :class="user.businessType==='Registered Business'?'active':'non-active'" class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 tw-mb-2">
+    <div @click="selectBusinessType('Registered Business')" :class="user.businessType==='Registered Business'?'active':'non-active'" class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 md:mt-0 tw-mt-10 tw-mb-2">
       <div :class="user.businessType==='Registered Business'?'bg-active':'bg-non-active'" class="tw-cursor-pointer tw-w-3 tw-h-3 tw-mr-3"> </div>
       <small class="tw-text-lg">Registered Business</small>
     </div>

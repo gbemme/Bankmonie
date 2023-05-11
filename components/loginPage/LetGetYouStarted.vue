@@ -51,8 +51,8 @@
       <div class="tw-flex tw-flex-col tw-justify-between tw-w-23.5">
         <label class="describe tw-my-3">How best do we describe you?</label>
         <div class="tw-flex tw-justify-between">
-          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p></div>
-          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Female</p></div>
+          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">Male</p></div>
+          <div class="gender tw-cursor-pointer tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">Female</p></div>
         </div>
       </div>
 <!--      <div class="form-one tw-flex md:tw-w-25 tw-rounded-xl md:tw-h-9 tw-h-9 tw-items-center tw-pl-3 tw-py-p-3 tw-mb-2">-->

@@ -7,10 +7,8 @@
     color="transparent"
     class="md:tw-w-10/12 tw-flex tw-m-auto tw-justify-between tw-pt-4"
   >
-  <!-- <span @click="$router.push('/')" class="tw-cursor-pointer tw-w-36 md:tw-w-44 tw-flex tw-items-center tw-text-3xl tw-font-semibold">
-      <img class="tw-mb-3" src="/bank-logo.png" alt="">
-        ankMe</span> -->
-    <img @click="$router.push('/')" class="tw-cursor-pointer tw-w-36 md:tw-w-44 md:tw--mt-6" src="/Bankme-logo.svg" alt="">
+    <img @click="$router.push('/')" class="tw-hidden md:tw-block tw-cursor-pointer tw-w-36 md:tw-w-44 md:tw--mt-6" src="/Bankme-logo.svg" alt="">
+    <img @click="$router.push('/')" class="md:tw-hidden tw-cursor-pointer tw-w-12 tw-h-14" src="/b-logo.png" alt="">
     <v-spacer class=" tw-hidden md:tw-block"></v-spacer>
     <div class="button-text tw-hidden md:tw-block">
         <v-btn class="tw-text-xl" @click="$emit('navigate','#home')"  text>Home</v-btn>
@@ -20,7 +18,7 @@
     </div>
 
 
-    <v-spacer class="tw-hidden md:tw-block"></v-spacer>
+    <v-spacer class=""></v-spacer>
     <div class="tw-hidden tw-font-bold md:tw-block md:tw-text-lg">
       <v-btn
         style="font-weight: 500 !important;"
@@ -38,13 +36,24 @@
       class="login-btn ma-2 ml-10"
       outlined
     >
-    <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank">Login</a>
+    <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank">
+      Login</a>
     </v-btn>
   </div>
-
-
+  <div class="md:tw-hidden tw-mt-6 tw-flex">
+      <v-btn v-if="register"
+        style="font-weight:400 !important; padding:0px !important;" class="register-btn tw-px-1"
+        outlined  color="#009CDE" to="/signUp">Register
+      </v-btn>
+      <v-btn v-if="login"
+        style="font-weight:400 !important; background-color: #009CDE; border:none !important"
+        class="tw-px-2 tw-ml-2" outlined>
+        <a style="color: white;" href="https://bankme.paypad.com.ng/" target="_blank">
+        Login</a>
+      </v-btn>
+      <img v-if="menu" src="~/static/menu-icon.svg" alt="" @click="openMobileLoginRegisterBtn">
+    </div>
   </v-app-bar>
-
 
 </div>
 </template>
@@ -52,14 +61,23 @@
 <script>
 export default {
   name: "LandingPageHeader",
+  data(){
+    return{
+      menu: false,
+      register: true,
+      login: true,
+    }
+  },
   methods:{
     goToHome(){
       // setTimeout(()=>{
         this.$scrollToTop('#faq');
       // }, 300)
     },
-  //   faq(){
-  //     this.$scrollToTop('
+  // openMobileLoginRegisterBtn(){
+  //   this.menu = false;
+  //   this.register = true;
+  //   this.login = true;
   //   }
   }
 
@@ -141,8 +159,6 @@ export default {
   width: 179px;
   height: 50px;
   right: 125px;
-  /*left: 1350px;*/
-  /*top: 28px;*/
   border: 1.4px solid #009CDE;
   border-radius: 12px;
   color: #002433;
@@ -157,10 +173,7 @@ export default {
   align-items: center;
   letter-spacing: -0.02em;
   color: #002433;
-
-
   /* Bankmonie/Primary/DarkBalckBlue */
-
 }
 
 </style>

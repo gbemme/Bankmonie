@@ -8,6 +8,12 @@ module.exports = {
   ],
   prefix:'tw-',
   theme: {
+    textColor: theme => theme('colors'),
+    textColor: {
+      'primary-bankme': '#009CDE',
+      'secondary': '#ffed4a',
+      'danger': '#e3342f',
+    },
     boxShadow: {
       sm: '0px 12px 50px rgba(150, 150, 150, 0.05)'
     },
@@ -50,10 +56,17 @@ module.exports = {
         '44.25':'11.063rem',
         '237':'59.25rem'
       },
+      margin: {
+       '100': '25rem',
+      },
       fontSize:{
         '4': '2.5rem',
         '5': '2.8rem'
-      }
+      },
+      backgroundImage: {
+        'talk-to-us': "url('/static/talk-to-us.png')",
+        'talk-to-us-mobile': "url('/static/talk-to-us-mobile.png')",
+      },
     },
   },
   plugins: [],

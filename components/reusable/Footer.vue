@@ -29,7 +29,7 @@
           <a href="https://www.facebook.com/" target="_blank">
             <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
           </a>
-          <a href="https://www.twitter.com/" target="_blank">
+          <a href="https://www.twitter.com/@BankMeHQ" target="_blank">
             <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
           </a>
           <a href="https://www.instagram.com/" target="_blank">

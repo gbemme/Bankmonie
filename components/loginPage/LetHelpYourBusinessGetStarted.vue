@@ -35,8 +35,8 @@
             <div class="md:tw-flex md:tw-flex-col tw-hidden tw-justify-between tw-w-23.5">
               <label class="describe tw-my-3">How best do we describe you?</label>
               <div class="tw-flex tw-justify-between">
-                <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Male</p></div>
-                <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Female</p></div>
+                <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">Male</p></div>
+                <div class="gender tw-flex tw-items-center"><small></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">Female</p></div>
               </div>
             </div>
 

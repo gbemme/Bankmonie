@@ -26,8 +26,31 @@
     </a>
     </div>
     <div class="md:tw-flex tw-justify-center">
-      <img class="tw-hidden md:tw-block md:tw-w-full" src="/become-agent.png" alt="">
-      <img class="md:tw-hidden" src="/round-mobile-with-button.png" alt="">
+      <div class="talk-to-us tw-bg-talk-to-us tw-rounded-3xl tw-hidden md:tw-block md:tw-w-full md:tw-h-full">
+        <div class="tw-mt-16 tw-mb-12 tw-w-96" style="margin-left: 400px">
+<!--          <h3 class="become-agent tw-flex tw-text-3xl tw-w-48">Become a BankMe agent</h3>-->
+                <h3 class="become-agent tw-text-3xl tw-w-7/12">Become a BankMe Agent</h3>
+        <span class="tw-w-22">
+            <p class="tw-font-normal tw-text-base tw-w-80 tw-ml-10" style="color: #ffffff">
+              Run your mobile money business with BankMe and make money with ease.
+            </p>
+          <a href="mailto:hello@bankme.africa" class="tw-ml-10">
+            <button style="background: #FFFFFF" class="tw-rounded-lg tw-font-semibold tw-text-base tw-text-primary-bankme tw-px-11 tw-py-3">Talk to us</button>
+          </a>
+        </span>
+       </div>
+      </div>
+<!--        <img class="tw-hidden md:tw-block md:tw-w-full" src="/talk-to-us-bg.png" alt="">-->
+<!--      <img class="tw-hidden md:tw-block md:tw-w-full" src="/become-agent.png" alt="">-->
+      <div class="talk-to-us-mobile md:tw-hidden tw-pt-56 tw-pb-16 tw-items-center tw-h-full tw-w-full">
+        <h3 class="become-agent tw-text-3xl tw-text-center tw-m-auto tw-w-48 tw-flex">Become a BankMe Agent</h3>
+            <p class="tw-font-normal tw-text-center tw-w-64 tw-m-auto tw-text-base" style="color: #ffffff">
+              Run your mobile money business with BankMe and make money with ease.
+            </p>
+          <a href="mailto:hello@bankme.africa" class="tw-flex tw-justify-center">
+            <button style="background: #FFFFFF" class="tw-rounded-lg tw-font-semibold tw-text-base tw-text-primary-bankme tw-px-11 tw-py-3">Talk to us</button>
+          </a>
+      </div>
     </div>
   </div>
   <div class="contact-section tw-px-10">
@@ -60,7 +83,7 @@
           <a href="https://www.facebook.com/" target="_blank">
             <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
           </a>
-          <a href="https://www.twitter.com/" target="_blank">
+          <a href="https://www.twitter.com/@BankMeHQ" target="_blank">
             <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
           </a>
           <a href="https://www.instagram.com/" target="_blank">
@@ -94,7 +117,7 @@ export default {
           question:'What is the best POS in Nigeria?',
           answer:"There are various good POS providers in Nigeria but the BankMe POS machine stands out amongst the rest for its instant settlements, competitive pricing, seamless onboarding and the ability to work with your existing bank."
         },
-        {         
+        {
           question:'How reliable is your POS Network ?',
           answer:"Our POS terminal is built with world class technology and a reliable payment infrastructure that completes POS transactions in seconds - we are here to serve you."
         },
@@ -146,6 +169,16 @@ export default {
 .question{
   color: #002433;
   width: 300px;
+}
+.talk-to-us{
+  background-image: url("/talk-to-us-bg.png");
+}
+.talk-to-us-mobile{
+  background-image: url("/talk-to-us-mobile.png");
+  border-radius: 40px;
+}
+.become-agent{
+  color: #FFFFFF;
 }
 .btn-talk{
   background-color: #002433;

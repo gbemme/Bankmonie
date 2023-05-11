@@ -33,11 +33,11 @@
         <div class="tw-flex tw-justify-between">
 
           <div class="agent tw-flex tw-items-center" @click="selectAgent('yes')" :class="user.agent==='yes'?'active':'non-active'">
-            <small :class="user.agent==='yes'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">Yes</p>
+            <small :class="user.agent==='yes'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">Yes</p>
           </div>
 
           <div class="agent tw-flex tw-items-center" @click="selectAgent('no')" :class="user.agent==='no'?'active':'non-active'">
-            <small :class="user.agent==='no'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-xs">No</p>
+            <small :class="user.agent==='no'?'bg-active':'bg-non-active'"></small> <p class="tw-mt-4 tw-ml-2 tw-text-lg">No</p>
           </div>
         </div>
       </div>
