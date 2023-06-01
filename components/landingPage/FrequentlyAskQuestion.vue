@@ -26,15 +26,15 @@
     </a>
     </div>
     <div class="md:tw-flex tw-justify-center">
-      <div class="talk-to-us tw-bg-talk-to-us tw-rounded-3xl tw-hidden md:tw-block md:tw-w-full md:tw-h-full">
-        <div class="tw-mt-16 tw-mb-12 tw-w-96" style="margin-left: 400px">
+      <div class="talk-to-us md:tw-flex md:tw-justify-center tw-rounded-3xl tw-hidden md:tw-block md:tw-w-full md:tw-h-full">
+        <div class="tw-mt-16 tw-mb-12">
 <!--          <h3 class="become-agent tw-flex tw-text-3xl tw-w-48">Become a BankMe agent</h3>-->
                 <h3 class="become-agent tw-text-3xl tw-w-7/12">Become a BankMe Agent</h3>
         <span class="tw-w-22">
-            <p class="tw-font-normal tw-text-base tw-w-80 tw-ml-10" style="color: #ffffff">
+            <p class="tw-font-normal tw-text-base tw-w-80" style="color: #ffffff">
               Run your mobile money business with BankMe and make money with ease.
             </p>
-          <a href="mailto:hello@bankme.africa" class="tw-ml-10">
+          <a href="mailto:hello@bankme.africa" class="">
             <button style="background: #FFFFFF" class="tw-rounded-lg tw-font-semibold tw-text-base tw-text-primary-bankme tw-px-11 tw-py-3">Talk to us</button>
           </a>
         </span>
@@ -79,15 +79,15 @@
       </div>
       <div>
         <h3 class="service-follow-us tw-text-xl tw-font-semibold tw-mb-4">Follow Us</h3>
-        <div class="tw-flex tw-justify-between tw-w-34 tw-h-5">
+        <div class="tw-flex tw-items-center tw-justify-between tw-w-34 tw-h-5">
           <a href="https://www.facebook.com/" target="_blank">
             <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
           </a>
           <a href="https://www.twitter.com/@BankMeHQ" target="_blank">
             <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="~/static/instagram-icon.svg" alt="" ref="https://www.instagram.com/">
+          <a href="https://www.linkedin.com/company/bankme-by-mango-technologies-limited" target="_blank">
+            <img src="~/static/linkedin-logo.svg" alt="" ref="https://www.linkedin.com/">
           </a>
           <a href="https://www.whatsapp.com/" target="_blank">
             <img src="~/static/whatsapp-logo-fill.svg" alt="" ref="https://www.whatsapp.com/09134001002">
@@ -96,7 +96,7 @@
     </div>
     </div>
     <div class="footer md:tw-w-3/4 md:tw-m-auto md:tw-flex md:tw-justify-end tw-w-full tw-py-6 tw-text-sm tw-font-semibold">
-      <span style="color: #002433">Bank<span style="color: #009CDE">Me</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
+      <span style="color: #002433">Bank<span style="color: #009CDE">Me by Mango Technologies Limited</span> <span>|{{d.getFullYear()}} All Rights Reserved</span></span>
     </div>
     <div>
 

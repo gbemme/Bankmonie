@@ -25,15 +25,15 @@
     </div>
     <div>
         <h3 class="service-follow-us tw-text-xl tw-font-semibold tw-mb-4">Follow Us</h3>
-        <div class="tw-flex tw-justify-between tw-w-34 tw-h-5">
+        <div class="tw-flex tw-items-center tw-justify-between tw-w-34 tw-h-5">
           <a href="https://www.facebook.com/" target="_blank">
             <img src="~/static/facebook-logo.svg" alt="FACEBOOK" ref="https://www.facebook.com/">
           </a>
           <a href="https://www.twitter.com/BankMeHQ" target="_blank">
             <img src="~/static/twitter-logo.svg" alt="" ref="https://www.twitter.com/">
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="~/static/instagram-icon.svg" alt="" ref="https://www.instagram.com/">
+          <a href="https://www.linkedin.com/company/bankme-by-mango-technologies-limited" target="_blank">
+            <img src="~/static/linkedin-logo.svg" alt="" ref="https://www.linkedin.com/">
           </a>
           <a href="https://www.whatsapp.com/" target="_blank">
             <img src="~/static/whatsapp-logo-fill.svg" alt="" ref="https://www.whatsapp.com/">

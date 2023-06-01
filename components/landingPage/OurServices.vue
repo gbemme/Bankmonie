@@ -1,5 +1,5 @@
 <template>
-<div id="services" class="md:tw-w-4/6 tw-w-5/6 tw-pt-20 tw-m-auto">
+<div id="services" class="md:tw-w-4/6 tw-w-5/6 tw-pt-20 tw-m-auto md:tw-mb-0 tw--mb-28 ">
   <div >
     <h3 class="tw-text-4xl tw-font-bold tw-px-9 md:tw-px-0 md:tw-text-5xl md:tw-font-bold">Power Your Business with a Comprehensive <span style="color:#009CDE;"> POS Device</span></h3>
   </div>
@@ -16,6 +16,7 @@
       </div>
     </div>
     <div class="md:tw-mx-6 md:tw-mt-64 tw-hidden md:tw-block">
+<!--      <img alt="" class="" src="~/static/wertty-new.png">-->
       <img src="/lady-image.png" alt="">
     </div>
     <div  class="md:tw-w-17 md:tw-pr-5 tw-mt-5">

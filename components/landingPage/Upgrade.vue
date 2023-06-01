@@ -7,21 +7,21 @@
   <div class="tw-mt-9 md:tw-flex md:tw-justify-center md:tw-mt-7">
     <div class=" md:tw-bg-white md:tw-mr-8 md:tw-shadow-sm md:tw-rounded-xl md:tw-w-80 md:tw-px-2 md:tw-py-4">
       <p class="tw-px-6 tw-font-normal md:tw-text-lg tw-text-sm md:tw-pt-2">At <span class="md:tw-font-bold">
-        BankMe, </span>we understand business and customer needs and have 
-        developed a POS terminal that provides instant settlement, competitive 
+        BankMe, </span>we understand business and customer needs and have
+        developed a POS terminal that provides instant settlement, competitive
         pricing, and seamless onboarding.
       </p>
     </div>
     <div class=" md:tw-bg-white md:tw-shadow-sm md:tw-rounded-xl md:tw-w-80 md:tw-px-2 md:tw-py-4">
       <p class="tw-px-6 md:tw-text-lg tw-text-sm tw-font-normal md:tw-pt-2">
-        We provide businesses with a POS (Point of Sale) terminal built on top 
-        of world class technology and a reliable payment infrastructure immune 
+        We provide businesses with a POS (Point of Sale) terminal built on top
+        of world class technology and a reliable payment infrastructure immune
         to down times.
       </p>
     </div>
   </div>
   <div class="md:tw-flex md:tw-justify-center md:tw-w-3/4 tw-m-auto tw-pt-12">
-    <img  src="/pos-images.png" alt="">
+    <img  src="/upgrade-bankme.svg" alt="">
   </div>
 
 

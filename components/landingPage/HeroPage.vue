@@ -10,8 +10,8 @@
       </div>
 
       <p class="md:tw-text-left md:tw-w-96 md:tw-mt-6 tw-text-center tw-text-3xl">
-        BankMe makes it easy for you to accept and process payments with 
-        our POS terminals. No more high fees or slow payment processing. 
+        BankMe makes it easy for you to accept and process payments with
+        our POS terminals. No more high fees or slow payment processing.
         Accept payments from customers faster than ever before.
       </p>
       <div class="tw-flex tw-justify-center md:tw-block md:tw-my-14 tw-my-9">
@@ -28,16 +28,16 @@
     <div>
     <div class="hero-img-dv tw-hidden md:tw-block">
       <div class="tw-flex md:tw-items-end md:tw-justify-end md:tw--mr-16 md:tw-mt-11 tw-transform hover:tw-scale-90">
-        <img draggable="false" class="md:tw-w-72 animate__animated animate__backInDown  " src="/income-rate.svg" alt="">
+<!--        <img draggable="false" class="md:tw-w-72 animate__animated animate__backInDown  " src="/income-rate.svg" alt="">-->
       </div>
       <div class="tw-flex md:tw--ml-16 md:tw-mt-28">
-        <img class="md:tw-w-72 animate__animated animate__backInRight" src="/income-rate-two.svg" alt="">
+<!--        <img class="md:tw-w-72 animate__animated animate__backInRight" src="/income-rate-two.svg" alt="">-->
       </div>
        <div class="tw-flex md:tw-items-end md:tw-justify-end md:tw-mt-3 md:tw--mr-16">
-        <img class="md:tw-w-72 animate__animated animate__backInUp" src="/income-rate-two.svg" alt="">
+<!--        <img class="md:tw-w-72 animate__animated animate__backInUp" src="/income-rate-two.svg" alt="">-->
        </div>
     </div>
-      <img class="md:tw-hidden tw-w-112" src="/man-hero-mobile.png" alt="">
+      <img class="md:tw-hidden tw-w-112 tw-ml-5" src="/new-hero-guy.png" alt="">
     </div>
 
   </div>
@@ -60,7 +60,8 @@ export default {
 
 <style scoped>
 .bg-img{
-  background: linear-gradient(181.04deg, #EBF9FF 0.89%, #FFFFFF 108.71%);
+  background: #E5F7FF;
+  /*background: linear-gradient(181.04deg, #EBF9FF 0.89%, #FFFFFF 108.71%);*/
   /* background-image: url("./static/MacBook Pro - 12home-bg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,11 +106,12 @@ export default {
   color: #FFFFFF;
 }
 .hero-img-dv{
-  background-image: url("/hero-image-guy.png");
+  background-image: url("/new-hero-guy.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
   width: 600px;
+  margin-bottom: -40px;
 
 }
 
